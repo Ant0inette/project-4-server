@@ -1,0 +1,96 @@
+
+# GET ALL DREAMS
+GET http://localhost:8000/api/dreams/
+###
+
+# GET SINGLE DREAM
+GET  http://localhost:8000/api/dreams/1
+###
+
+# CREATE NEW DREAM
+GET  http://localhost:8000/api/dreams/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDQ0NTEyN30.ZE3qjd4x4ecndRRBW4MxFIGXLWDjwjWLMYqGm2QfGbU
+
+{
+  "title": "Snake Bone Bridge",
+  "description": " I begin to navigate the fourth stage of post-hypnagogic dreaming, which always has scenes of lakes and rivers (though scenes of interspersed water bodies occur as soon as I become sleepy). A bridge rises across one river. It is a giant snake skeleton, but I have no hesitation in appreciating its beauty. Metacognition allows me to create and experience dreams simultaneously, not necessarily with conscious scripting or focus of intent. Eventually, the giant snake skeleton is more like clusters of wooden clothes pegs forming an elaborate walkway.",
+  "caption": "a river with a snake skeleton bridge.",
+  "image": "https://64.media.tumblr.com/956cf39ae610d88a00bd488cb923532c/242268901a2c0c49-37/s500x750/7c6fb88067c4401f4fb2e41e99f3e714e1f67ba9.jpg"
+}
+###
+
+# DELETE A SINGLE DREAM
+DELETE http://localhost:8000/api/dreams/3
+###
+
+#UPDATE A SINGLE DREAM
+PUT http://localhost:8000/api/dreams/2
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "id":2,
+  "title": "",
+  "description":"",
+  "caption":"",
+  "image":"",
+  "favoritedBy": [1,2]
+
+}
+###
+
+#CREATE A COMMENT
+POST http://localhost:8000/api/dreams/1/comments/
+Content-Type: application/json
+Authorization: Bearer
+
+{
+  "content": "So sickk 🤘🏿"
+}
+
+###DELETE A COMMENT
+DELETE http://localhost:8000/api/dreams/1/comments/5/
+###
+
+#REGISTER USER
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+  "username": "beetsbydre",
+  "email": "beetsbydre@email.com",
+  "profile_image":"image_jpg",
+  "password":"pass",
+  "password_confirmation":"pass"
+}
+###
+
+#LOGIN USER
+POST http://localhost:8000/api/auth/login/
+Content-Type: application/json
+
+{
+  "email":"cutegirl45@email.com",
+  "password":"pass"
+}
+###
+
+# FAVORITE A DREAM
+POST http://localhost:8000/api/dinosaurs/8/favorite/
+Authorization: Bearer 
+###
+
+# GET USER PROFILE
+GET http://localhost:8000/api/auth/profile/1/
+
+###
+#GET IMAGE
+
+POST https://attngan-19b49156.hosted-models.runwayml.cloud/v1/query
+Accept: application/json
+Authorization: Bearer UDM/pHKVUx8JEhVY2Pqtzg==
+Content-Type: application/json
+{
+  "caption": "seagull with red wings"
+}
