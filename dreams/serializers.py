@@ -28,4 +28,37 @@ class PopulatedCommentSerializer(CommentSerializer):
 class PopulatedDreamSerializer(DreamSerializer):
     comments = PopulatedCommentSerializer(many=True)
     favorited_by = UserSerializer(many=True)
-    author = UserSerializer()                          
+    author = UserSerializer()
+
+# class EachUserSerializer(serializers.ModelSerializer):
+#     username = serializers.CharField(source='user.username')
+#     class Meta:
+#         model = Profile
+#         fields = ('id','username','profile_pic')
+#         read_only_fields = ('id','username','profile_pic')
+
+# class FollowerSerializer(serializers.ModelSerializer):
+#     followers = EachUserSerializer(many=True, read_only= True)
+#     following = EachUserSerializer(many=True,read_only=True)
+    
+#     class Meta:
+#         model = Profile
+#         fields = ('followers','following')
+#         read_only_fields = ('followers','following')
+
+# class BlockPendinSerializer(serializers.ModelSerializer):
+#     pending_request = EachUserSerializer(many=True, read_only= True)
+#     blocked_user = EachUserSerializer(many=True,read_only=True)
+
+#     class Meta:
+#         model = Profile
+#         fields = ('pending_request','blocked_user')  
+#         read_only_fields = ('pending_request','blocked_user')
+
+
+
+
+
+
+
+                     

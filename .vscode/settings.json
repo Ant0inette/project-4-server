@@ -4,5 +4,6 @@
     "activityBar.background": "#571425",
     "titleBar.activeBackground": "#7A1D34",
     "titleBar.activeForeground": "#FEFBFC"
-  }
+  },
+  "python.pythonPath": "/Users/antoinettedemonceaux/.local/share/virtualenvs/server-MK-MOl6J/bin/python"
 }

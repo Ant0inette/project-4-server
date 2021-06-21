@@ -1,0 +1,238 @@
+[
+{
+  "model": "dreams.dream",
+  "pk": 1,
+  "fields": {
+    "title": "No Chicken for Me, I am a Vegetarian",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "2, 13",
+    "settings": "23",
+    "emotions": "3, 8, 6",
+    "themes": "",
+    "type": "6",
+    "description": "I am driving a car. Ahead of me is my mom and her boyfriend. He is riding a motorcycle that looks kind of weird, but I can't make out why. We park  a little bit away from the casino/restaurant we are going to eat at.  I go on to join them in the casino. I look all through the restaurant and cannot find them. I figure I was gone so long that perhaps they had eaten already. I notice a line of people waiting to be seated and think they must not have gotten a seat yet. I finally see them, and they have a dish they got for me. An old woman says, 'Ice' and reaches into my cup and scoops out a handful of my ice. I am startled and pissed at the audacity and throw the rest of it on the front of her and walk out. I think to myself I will probably get fired. As I am walking back to the motorcycle, I look at the dish I was given. It is a chicken and rice dish. I put it down and assert to myself that I am a vegetarian.",
+    "caption": "old lady grabs the ice",
+    "image_url": "https://i.imgur.com/uiEEcYb.png",
+    "coherence_rating": 3,
+    "author": 1,
+    "favorited_by": [
+      4,
+      6,
+      3
+    ]
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 2,
+  "fields": {
+    "title": "Flying Golf Cart",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "5",
+    "emotions": "7, 12, 16",
+    "themes": "",
+    "type": "1",
+    "description": "I am riding in a golf cart. I lean back and will the golf cart to fly. I close my eyes and can feel the golf cart lift up in the front end. I can feel the weightlessness as I begin to fly along in the golf cart. I feel like I should open my eyes but keep them closed. I know I am not in waking reality as flying golf carts haven’t been invented yet. I finally decide to open my eyes. The world is dark and like a film is over my eyes. I realize I must be astral and my eyes are trying to adjust. I am in an older village type of reality. It reminds me of England.",
+    "caption": "flying golf cart on golf course",
+    "image_url": "https://i.imgur.com/J2OQ1NR.png",
+    "coherence_rating": 5,
+    "author": 2,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 3,
+  "fields": {
+    "title": "You Again?",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "16",
+    "emotions": "3",
+    "themes": "",
+    "type": "6",
+    "description": "Lived in town; there was an old traditional Japanese store on one road. Seemed out of place but had been there years. Went in to buy JC a present, then remembered we weren't friends any more. Still wondered if I could leave it on her doorstep, but finally decided against it. Options: sake or a fizzy drink. He had more stuff but not much I’d buy. The 2litre bottle of fizzy drink (black grape) was under so much pressure the plastic was taut like a drum, and I was afraid it might burst. I ended up in my former friend's house anyway. Don’t think I really got talked to but wasn’t being ignored either. They’d changed table cloth but it was glued to table. They'd peeled other one off, then peeled old hand stickers off it and replaced them over top of new cloth (oil cloth type). Think there was a wedding scene too but can’t remember. Upon entering Japanese store was struck by how dark it was inside, in spite of being broad daylight (although cloudy) outside. The interior looked like it was straight out of the Victorian period and I suspected it didn't have electricity.",
+    "caption": "old japanese store",
+    "image_url": "https://i.imgur.com/5RqjgED.png",
+    "coherence_rating": 1,
+    "author": 1,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 4,
+  "fields": {
+    "title": "Horse",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "16",
+    "emotions": "15, 19",
+    "themes": "27",
+    "type": "2",
+    "description": "This is one of those dreams I got really into while experiencing it, but mostly remember just random elements of after waking. In it, I owned a horse I was able to communicate with telepathically (the horse itself was Toytown, Zara Philip's horse). At the end, I'd stood him on the ground next to a giant black horse, so big it took up half the frame the dream had put round the scene. 'Toytown' was stiff, like a plastic model. I was looking at him from a sort of isometric angle (ala The Sims), thinking I hadn't realised how small he actually was compared to 'normal' ones. There were bits where I was at work and the times I saw the the sky it was like a (true, aka pre global warming) winter sunset, golds, blues, pale peach, dark clouds.",
+    "caption": "isometric angle horse telepath",
+    "image_url": "https://i.imgur.com/BQxeGxl.png",
+    "coherence_rating": 3,
+    "author": 3,
+    "favorited_by": [
+      1
+    ]
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 5,
+  "fields": {
+    "title": "Banned on Reddit",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "8",
+    "settings": "23",
+    "emotions": "4, 10",
+    "themes": "2",
+    "type": "2",
+    "description": "I was visiting Reddit and looking at the roller coaster forum. I wanted to post a reply in a photo thread but wasn't able to. I went back to the home page and saw that I was banned. I wondered what I'd done to be banned. I thought it was because I wrote an angry reply to someone who bullied my brother. Somehow I knew this person in real life and knew that he bullied my brother in high school.I looked at other places on Reddit and saw that I couldn't reply anywhere. I wanted to send a message to a moderator to find out what I had to do to get unbanned.",
+    "caption": "rollercoaster forum reddit",
+    "image_url": "https://i.imgur.com/Am74hE1.png",
+    "coherence_rating": 2,
+    "author": 4,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 6,
+  "fields": {
+    "title": "Corrupt Cookie Company (Extortion)",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "8, 13",
+    "settings": "3",
+    "emotions": "11, 15",
+    "themes": "",
+    "type": "4",
+    "description": " My brother and mom are heading towards the kitchen at my work. Inside is the open, leisure room with the colorful velcro carpet. It looks like there is a business meeting going on for the cookie company my landlord works for, and she is there. My mom interrupts this meeting, and she has some papers with her. These papers contain a list of secrets and scandals the company is hiding. My mom is going to exploit them, but she seems nervous and stumbles over her words when trying to speak. Many facets of this situation leave me befuddled. Later on, we're in a car: my brother and I in the back seat and my mom in the driver's. In the passenger is some representative of the cookie company. He is some ugly old white man with a suit. I think he was telling my mom how much trouble she's in, or he was trying to make a deal with her. She has the papers; they're blue. Again, she stumbles over her words when trying to show the evidence she has against this corrupt cookie company. I think she might've been trying to extort them or get some type of bribe or something. It doesn't seem to be working...",
+    "caption": "cookie company",
+    "image_url": "https://i.imgur.com/Deq3sWq.png",
+    "coherence_rating": 2,
+    "author": 1,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 7,
+  "fields": {
+    "title": "Eyelash Slasher",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "7",
+    "emotions": "3, 10, 16",
+    "themes": "23",
+    "type": "4",
+    "description": "We had special privileges in our miserable fishermen society, luxurious houses to live in, but that meant that we had to hide from these violent deities that looked like they were sharp and covered in petrol. They could come from the skies at any given moment. I got reckless because I had been able to escape time and time again. Eventually I was cornered by them, and realised realised there was no way to escape them, not even the bat cave that always had seemed to be an asylum. I then go to the beach, where the sunset turn into my nemesis, a giant pair of eyelashes. The eyelash nemesis slashes me spectacularly to death, with every wink.",
+    "caption": "eyelash deity, beach at sunset",
+    "image_url": "https://i.imgur.com/3dOhjy3.png",
+    "coherence_rating": 3,
+    "author": 4,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 8,
+  "fields": {
+    "title": "2021 shining",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "6",
+    "emotions": "7, 12, 14",
+    "themes": "13",
+    "type": "3",
+    "description": "I was floating, just floating, like 2014 floating. Then I was shining, just shining, like 2021 shining.",
+    "caption": "desert hallucinations",
+    "image_url": "https://i.imgur.com/OIiHpOb.png",
+    "coherence_rating": 1,
+    "author": 5,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 9,
+  "fields": {
+    "title": "Snake Bone Bridge",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "",
+    "settings": "9",
+    "emotions": "9",
+    "themes": "",
+    "type": "3",
+    "description": "I begin to navigate the fourth stage of post-hypnagogic dreaming, which always has scenes of lakes and rivers (though scenes of interspersed water bodies occur as soon as I become sleepy). A bridge rises across one river. It is a giant snake skeleton, but I have no hesitation in appreciating its beauty. Metacognition allows me to create and experience dreams simultaneously, not necessarily with conscious scripting or focus of intent. Eventually, the giant snake skeleton is more like clusters of wooden clothes pegs forming an elaborate walkway.",
+    "caption": "a river with a snake skeleton bridge.",
+    "image_url": "https://64.media.tumblr.com/956cf39ae610d88a00bd488cb923532c/242268901a2c0c49-37/s500x750/7c6fb88067c4401f4fb2e41e99f3e714e1f67ba9.jpg",
+    "coherence_rating": 5,
+    "author": 6,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.dream",
+  "pk": 10,
+  "fields": {
+    "title": "Immortal self, Jerry, Mother",
+    "date": "2016-05-23T08:30:15Z",
+    "characters": "13",
+    "settings": "7",
+    "emotions": "9",
+    "themes": "11",
+    "type": "2",
+    "description": "I am looking for where my mother lives (with no recall of her death in 2002). Although I start in Cubitis, Florida, the last segment takes place in La Crosse, Wisconsin. At one point, I enter a bakery and approach the counter. An unfamiliar man at the counter seems friendly. 'I am immortal,'' I tell him. This attribute seems to mean I can inform him about whatever he wants to know. He asks me who he can trust. I tell him that Jerry (unknown to me), supposedly a friend of his, can be trusted. He seems happy but then seems less enthusiastic when it turns out Jerry is his only friend. I walk near different kinds of unusual buildings. Eventually, I go into an office building where my mother seems to be obeying at least four women (unknown, but possibly nurses) by picking items up from the floor. She does not see me and remains kneeling. I realize most of it is candy. I pick up some marshmallows from a table to my left and eat them one at a time. Their taste is realistically sweet. I do not say anything to anyone, and no one notices me.",
+    "caption": "old lady picking up candy",
+    "image_url": "https://i.imgur.com/fkl6sBR.png",
+    "coherence_rating": 4,
+    "author": 3,
+    "favorited_by": []
+  }
+},
+{
+  "model": "dreams.comment",
+  "pk": 6,
+  "fields": {
+    "date": "2016-05-23T08:30:15Z",
+    "content": "Maybe this is trying to tell you something...",
+    "dream": 6,
+    "author": 5
+  }
+},
+{
+  "model": "dreams.comment",
+  "pk": 7,
+  "fields": {
+    "date": "2016-05-23T08:30:15Z",
+    "content": "I luv horses :O",
+    "dream": 4,
+    "author": 3
+  }
+},
+{
+  "model": "dreams.comment",
+  "pk": 8,
+  "fields": {
+    "date": "2016-05-23T08:30:15Z",
+    "content": "How audacious of that old lady xD",
+    "dream": 1,
+    "author": 4
+  }
+},
+{
+  "model": "dreams.comment",
+  "pk": 9,
+  "fields": {
+    "date": "2016-05-23T08:30:15Z",
+    "content": "BOOOOOOORING 🥱\tNULL\tNULL\tNULL\tNULL",
+    "dream": 5,
+    "author": 1
+  }
+}
+]

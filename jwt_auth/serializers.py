@@ -7,6 +7,9 @@ User = get_user_model()
 
 class UserSerializer(serializers.ModelSerializer):
 
+    following = serializers.SerializerMethodField()
+    followers = serializers.SerializerMethodField()
+
     password = serializers.CharField(write_only=True)
     password_confirmation = serializers.CharField(write_only=True)
 

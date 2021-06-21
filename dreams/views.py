@@ -98,3 +98,81 @@ class CommentDetailView(APIView):
             raise NotFound()                                       
 
 
+# class FollowUnfollowView(APIView):
+#         permission_classes = [IsAuthenticated]
+        
+#         def current_profile(self):
+#             try:
+#                 return Profile.objects.get(user = self.request.user)
+#             except Profile.DoesNotExist:
+#                 raise NotFound()
+            
+#         def other_profile(self,pk):
+#             try:
+#                 return Profile.objects.get(id = pk)
+#             except Profile.DoesNotExist:
+#                 raise NotFound()
+        
+#         def post(self, request,format=None):    
+            
+#             pk = request.data.get('id')              # Here pk is other user 
+#             req_type = request.data.get('type')        
+            
+#             current_profile = self.current_profile()
+#             other_profile = self.other_profile(pk)
+            
+            
+#             if req_type == 'follow':
+#                 if other_profile.private_account:
+#                     other_profile.panding_request.add(current_profile)
+#                     return Response({"Requested" : "Follow request has been send!!"},status=status.HTTP_200_OK)
+#                 else:
+#                     if other_profile.blocked_user.filter(id = current_profile.id).exists():
+#                         return Response({"Following Fail" : "You, have been blocked !!"},status=status.HTTP_400_BAD_REQUEST)
+#                     current_profile.following.add(other_profile)
+#                     other_profile.followers.add(current_profile)
+#                     return Response({"Following" : "Following success!!"},status=status.HTTP_200_OK) 
+            
+#             elif req_type == 'accept':
+#                 current_profile.followers.add(other_profile)
+#                 other_profile.following.add(current_profile)
+#                 current_profile.pending_request.remove(other_profile)
+#                 return Response({"Accepted" : "Follow request successfuly accepted!!"},status=status.HTTP_200_OK)
+            
+#             elif req_type == 'decline':
+#                 current_profile.pending_request.remove(other_profile)
+#                 return Response({"Decline" : "Follow request successfully declined!!"},status=status.HTTP_200_OK)
+            
+#             elif req_type == 'unfollow':
+#                 current_profile.following.remove(other_profile)
+#                 other_profile.followers.remove(current_profile)
+#                 return Response({"Unfollow" : "Unfollow success!!"},status=status.HTTP_200_OK)
+                
+
+#     # fetch followers data ,following detail and blocked user,pending request,sended request.. 
+    
+#         def patch(self, request,format=None):
+        
+#             req_type = request.data.get('type')
+        
+#             if req_type == 'follow_detail':
+#                 serializer = FollowerSerializer(self.current_profile())
+#                 return Response({"data" : serializer.data},status=status.HTTP_200_OK)
+        
+#             elif req_type == 'block_pending':
+#                 serializer = BlockPendinSerializer(self.current_profile())
+#                 pf = list(Profile.objects.filter(panding_request = self.current_profile().id).values('id','user__username','profile_pic','overall_pr'))
+#                 return Response({"data" : serializer.data,"Sended Request" :pf},status=status.HTTP_200_OK)
+
+#     # BLOCK O" CLOCK
+
+#         def put(self, request,format=None):
+#             pk = request.data.get('id')              # Here pk = person to be blocked's ID
+#             req_type = request.data.get('type')
+        
+#             if req_type == 'block':
+#                 self.current_profile().blocked_user.add(self.other_profile(pk))
+#                 return Response({"Blocked" : "This user blocked successfuly"},status=status.HTTP_200_OK)
+#             elif req_type == 'unblock':
+#                 self.current_profile().blocked_user.remove(self.other_profile(pk))
+#                 return Response({"Unblocked" : "This user unblocked successfuly"},status=status.HTTP_200_OK)

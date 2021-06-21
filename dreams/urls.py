@@ -4,15 +4,16 @@ from .views import (
     DreamDetailView,
     DreamFavoriteView,
     CommentListView,
-    CommentDetailView
+    CommentDetailView    
 )
 
 urlpatterns = [
-    path('api/dreams/', DreamListView.as_view(), name='dream-list'),
-    path('api/dreams/<int:pk>/', DreamDetailView.as_view(), name='book-detail'),
-    path('api/dreams/<int:pk>/favorite/', DreamFavoriteView.as_view(), name='/dream-favorite'),
-    path('api/dreams/<int:drm_pk>/comments/', CommentListView.as_view(), name='comment-list'),
-    path('api/dreams/<int:_drm_pk>/comments/<int:comment_pk>/', CommentDetailView.as_view(), name='comment-detail')
+    path('', DreamListView.as_view()),
+    path('<int:pk>/', DreamDetailView.as_view()),
+    path('<int:pk>/favorite/', DreamFavoriteView.as_view()),
+    path('<int:drm_pk>/comments/', CommentListView.as_view()),
+    path('<int:_drm_pk>/comments/<int:comment_pk>/', CommentDetailView.as_view()),
+    
 ]
 
 # reverse('dream-list')
